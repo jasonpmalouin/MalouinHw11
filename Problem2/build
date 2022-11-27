@@ -1,3 +1,4 @@
 #!/bin/bash
+config-pin p9.12 gpio
 g++ subscribe.cpp -o subscribe -lpaho-mqtt3c
 
